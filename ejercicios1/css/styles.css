@@ -1,0 +1,257 @@
+/* =========================
+   RESET BÁSICO
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fc;
+    color: #172033;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* =========================
+   CABECERA
+   ========================= */
+
+header {
+    text-align: center;
+    background: #29364d;
+    color: white;
+    padding: 24px 6%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 6px 0 0;
+    color: #cbd5e1;
+}
+
+
+/* =========================
+   CONTENIDO PRINCIPAL
+   ========================= */
+
+main {
+    flex: 1;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+/* =========================
+   TÍTULOS
+   ========================= */
+
+.contenedor h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #172033;
+    margin-bottom: 40px;
+}
+
+.titulo-ejercicio {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-ejercicio h2 {
+    margin: 0;
+    font-size: 42px;
+    color: #172033;
+}
+
+.titulo-ejercicio p {
+    margin-top: 10px;
+    color: #64748b;
+    font-size: 18px;
+}
+
+
+/* =========================
+   TARJETAS
+   ========================= */
+
+.tarjeta {
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+.tarjeta h3 {
+    margin-top: 0;
+    color: #172033;
+}
+
+
+/* =========================
+   RESULTADOS
+   ========================= */
+
+.resultado {
+    background: #e8f8f0;
+    border: 1px solid #b8e5cd;
+    border-radius: 12px;
+    padding: 20px 25px;
+    color: #145c3c;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   MENSAJES
+   ========================= */
+
+.info {
+    background: #eef4ff;
+    border-left: 4px solid #4f7cff;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.aviso {
+    background: #fff7e6;
+    border-left: 4px solid #e0a100;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.error {
+    background: #fdecec;
+    border-left: 4px solid #dc3545;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+
+/* =========================
+   LISTAS
+   ========================= */
+
+ul,
+ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* =========================
+   TABLAS
+   ========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    border: 1px solid #dbe1ea;
+    text-align: left;
+}
+
+th {
+    background: #29364d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+
+/* =========================
+   CÓDIGO
+   ========================= */
+
+.codigo {
+    background: #1f2937;
+    color: #f8fafc;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    font-family: Consolas, monospace;
+}
+
+
+/* =========================
+   PIE DE PÁGINA
+   ========================= */
+
+footer {
+    background: #29364d;
+    color: #cbd5e1;
+    padding: 20px 6%;
+    text-align: center;
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 700px) {
+
+    .contenedor {
+        width: 92%;
+        padding: 40px 0;
+    }
+
+    .contenedor h2 {
+        font-size: 30px;
+    }
+
+    .titulo-ejercicio h2 {
+        font-size: 32px;
+    }
+
+    .titulo-ejercicio p {
+        font-size: 16px;
+    }
+
+    .tarjeta {
+        padding: 20px;
+    }
+
+    .resultado {
+        font-size: 17px;
+        padding: 18px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
