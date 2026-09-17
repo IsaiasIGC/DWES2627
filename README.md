@@ -25,7 +25,7 @@ $anyoNacimiento = 2000;
 
 ### Captura del resultado
 
-![Resultado del ejercicio 1](ejercicios1/img/info_basica.png)
+![Resultado del ejercicio](ejercicios1/img/info_basica.png)
 
 ---
 
@@ -65,11 +65,11 @@ $textoIdiomas = "idiomas_" . $idioma;
 
 ### Captura del resultado
 
-![Resultado del ejercicio 2](ejercicios1/img/curriculum.png)
+![Resultado del ejercicio](ejercicios1/img/curriculum.png)
 
 ---
 
-## Ejercicio 2 - Área de un círculo
+## Ejercicio - Área de un círculo
 
 ### Enunciado
 
@@ -99,4 +99,4 @@ Finalmente, mostrar por pantalla el texto "El área del círculo es XX.XX", dond
 
 ### Captura del resultado
 
-![Resultado del ejercicio 2](ejercicios1/img/curriculum.png)
+![Resultado del ejercicio](ejercicios1/img/area_circulo.png)
