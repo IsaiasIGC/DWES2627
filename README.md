@@ -8,7 +8,7 @@ En este repositorio se irán recopilando los ejercicios y prácticas realizados 
 
 ## Autor
 
-**Isaías**
+**Isaías Gregori Crespo**
 
 **Ciclo:** Desarrollo de Aplicaciones Web (DAW)  
 **Curso:** 2026-2027
