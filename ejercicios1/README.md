@@ -56,6 +56,8 @@ Después, utilizar una estructura `if...else` para determinar qué nota es la ma
 
 ![Resultado del ejercicio](../ejercicios1/img/prueba_if.png)
 
+---
+
 ## Ejercicio - Mayor de tres notas
 
 ### Enunciado
@@ -65,3 +67,29 @@ Modificar el ejercicio anterior añadiendo una tercera nota `$nota3` y determina
 ### Captura del resultado
 
 ![Resultado del ejercicio](../ejercicios1/img/prueba_if_2.png)
+
+---
+
+## Ejercicio - Contadores
+
+### Enunciado
+
+Crear una página `contador.php`.
+
+Utilizar una estructura `for` para contar los números del 1 al 100, separados por comas, y después una estructura `while` para realizar una cuenta atrás desde el 10 hasta el 0, separando los números mediante guiones.
+
+### Captura del resultado
+
+![Resultado del ejercicio](../ejercicios1/img/contador.png)
+
+---
+
+## Ejercicio - Contadores con explicación
+
+### Enunciado
+
+Modificar el ejercicio anterior añadiendo títulos y párrafos explicativos a la página, fuera del código PHP, explicando qué se va a hacer con cada contador.
+
+### Captura del resultado
+
+![Resultado del ejercicio](../ejercicios1/img/contador_2.png)
