@@ -13,3 +13,9 @@ Ejercicios realizados durante el tema de **Uso de Funciones y Ficheros** de la a
 ## Ejercicio 2 - Intercambia
 
 ![Resultado del ejercicio](img/intercambia.png)
+
+---
+
+## Ejercicio - Mayor
+
+![Resultado del ejercicio](img/parametrosVariables.png)
