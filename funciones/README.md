@@ -19,3 +19,9 @@ Ejercicios realizados durante el tema de **Uso de Funciones y Ficheros** de la a
 ## Ejercicio - Mayor
 
 ![Resultado del ejercicio](img/parametrosVariables.png)
+
+---
+
+## Ejercicio - Comprobar hora
+
+![Resultado del ejercicio](img/comprueba_hora.png)
