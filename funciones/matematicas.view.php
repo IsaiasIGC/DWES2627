@@ -9,7 +9,6 @@
     <h2>Ejercicio - Matemáticas</h2>
 
     <div class="tarjeta">
-
         <h3>Enunciado</h3>
 
         <p>
@@ -17,23 +16,18 @@
             <strong>digitoN</strong>, <strong>quitaPorDetras</strong>
             y <strong>quitaPorDelante</strong>.
         </p>
-
     </div>
-
     <div class="tarjeta">
-
         <h3>Resultados</h3>
 
         <p class="resultado">
             Número: <?php echo $num; ?><br>
             Cantidad de dígitos: <?php echo $cantidadDigitos; ?><br>
-
-            <!-- Aquí mostraremos los demás resultados -->
-
+            Dígito en la posición <?php echo $pos; ?>: <?php echo $digito; ?><br>
+            Quitar <?php echo $cantDetras; ?> dígitos por detrás: <?php echo $resultadoDetras; ?><br>
+            Quitar <?php echo $cantDelante; ?> dígitos por delante: <?php echo $resultadoDelante; ?>
         </p>
-
     </div>
-
 </main>
 
 <?php

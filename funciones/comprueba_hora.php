@@ -24,5 +24,7 @@
     }
 
     $titulo = "Ejercicio - Comprobar hora";
+    $rutaCss = "../css/styles.css";
+
     include("comprueba_hora.view.php");
 ?>

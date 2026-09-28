@@ -1,6 +1,7 @@
 <?php
 
     $titulo = "Ejercicio - Mayor PHP";
+    $rutaCss = "../css/styles.css";
 
     include("plantilla/encabezado.php");
 

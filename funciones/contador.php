@@ -1,6 +1,7 @@
 <?php
 
 $titulo = "Ejercicio 1 - Contador PHP";
+$rutaCss = "../css/styles.css";
 
 include("plantilla/encabezado.php");
 

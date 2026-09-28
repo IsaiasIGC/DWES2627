@@ -1,6 +1,9 @@
-    <footer>
+<footer class="pie">
+
+    <div class="pie-contenido">
         <p>Ejercicios PHP · DAW</p>
-    </footer>
+    </div>
+</footer>
 
 </body>
 </html>

@@ -21,12 +21,17 @@
 
         return $num % 10;
     }
+
     function quitaPorDetras(int $num, int $cant): int {
-        // ...
+        for ($i = $cant; $i > 0; $i--) {
+            $num = intdiv($num, 10);
+        }
+        return $num;
     }
 
     function quitaPorDelante(int $num, int $cant): int {
-        // ...
+        $num = substr($num, $cant);
+        return (int) $num;
     }
 
     // Datos para probar las funciones
@@ -35,9 +40,18 @@
     // Resultados
     $cantidadDigitos = digitos($num);
 
-    // ...
+    $pos = 3;
+    $digito = digitoN($num, $pos);
+
+    $cantDetras = 2;
+    $resultadoDetras = quitaPorDetras($num, $cantDetras);
+
+    $cantDelante = 2;
+    $resultadoDelante = quitaPorDelante($num, $cantDelante);
+
 
     $titulo = "Ejercicio - Matemáticas";
+    $rutaCss = "../css/styles.css";
 
     include("matematicas.view.php");
 

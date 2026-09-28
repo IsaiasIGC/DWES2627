@@ -1,6 +1,7 @@
 <?php
 
     $titulo = "Ejercicio 2 - Intercambia PHP";
+    $rutaCss = "../css/styles.css";
 
     include("plantilla/encabezado.php");
 
