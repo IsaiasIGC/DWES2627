@@ -299,7 +299,7 @@ tr:nth-child(even) {
         padding: 18px;
     }
 
-    header h1 {
+    .cabecera h1 {
         font-size: 24px;
     }
 
