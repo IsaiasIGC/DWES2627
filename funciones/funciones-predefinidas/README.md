@@ -31,3 +31,15 @@ Ejercicios realizados durante el apartado de **Funciones Predefinidas** de la as
 ## Ejercicio - Palíndromo
 
 ![Resultado del ejercicio](img/palindromo.png)
+
+---
+
+## Ejercicio - Casas Rurales
+
+![Resultado del ejercicio](img/CasasRuralesTelefonos.png)
+
+---
+
+## Ejercicio - Plantillas
+
+![Resultado del ejercicio](img/plantillas.png)
