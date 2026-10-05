@@ -175,7 +175,6 @@ main {
     line-height: 1.6;
 }
 
-
 /* MENSAJES */
 
 .info {
@@ -199,7 +198,6 @@ main {
     border-radius: 8px;
 }
 
-
 /* LISTAS */
 
 ul,
@@ -211,31 +209,42 @@ li {
     margin-bottom: 8px;
 }
 
-
 /* TABLAS */
 
-table {
+.tabla-formulario {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
-th,
-td {
-    padding: 12px 15px;
-    border: 1px solid #dbe1ea;
+.tabla-formulario th,
+.tabla-formulario td {
+    padding: 14px 18px;
+    border: none;
     text-align: left;
 }
 
-th {
-    background: #29364d;
+.tabla-formulario thead th {
+    background-color: #29364d;
     color: white;
 }
 
-tr:nth-child(even) {
-    background: #f8fafc;
+.tabla-formulario tbody th {
+    background-color: #eef4ff;
+    color: #29364d;
+    width: 30%;
 }
 
+.tabla-formulario tbody td {
+    background-color: white;
+    color: #172033;
+}
+
+.tabla-formulario tbody tr:nth-child(even) th,
+.tabla-formulario tbody tr:nth-child(even) td {
+    background-color: #f8fafc;
+}
 
 /* CÓDIGO */
 
@@ -303,7 +312,7 @@ tr:nth-child(even) {
         font-size: 24px;
     }
 
-    table {
+    tabla {
         font-size: 14px;
     }
 }

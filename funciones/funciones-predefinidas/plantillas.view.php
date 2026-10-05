@@ -2,7 +2,7 @@
 
     $rutaCss = "../../css/styles.css";
 
-    include("../plantilla/encabezado.php");
+    include("../../plantilla/encabezado.php");
 
 ?>
 
@@ -61,6 +61,6 @@
 
 <?php
 
-    include("../plantilla/pie.php");
+    include("../../plantilla/pie.php");
 
 ?>

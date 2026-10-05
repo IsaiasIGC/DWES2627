@@ -3,7 +3,7 @@
     $titulo = "Ejercicio 2 - Intercambia PHP";
     $rutaCss = "../css/styles.css";
 
-    include("plantilla/encabezado.php");
+    include("../plantilla/encabezado.php");
 
     function intercambia(&$n1, &$n2) {
 
@@ -64,6 +64,6 @@
 
 <?php
 
-    include("plantilla/pie.php");
+    include("../plantilla/pie.php");
 
 ?>

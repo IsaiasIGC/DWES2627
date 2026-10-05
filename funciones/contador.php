@@ -3,7 +3,7 @@
 $titulo = "Ejercicio 1 - Contador PHP";
 $rutaCss = "../css/styles.css";
 
-include("plantilla/encabezado.php");
+include("../plantilla/encabezado.php");
 
 function cuenta($n1, $n2) {
 
@@ -48,4 +48,4 @@ $b = 20;
 
 </main>
 
-<?php include("plantilla/pie.php"); ?>
+<?php include("../plantilla/pie.php"); ?>

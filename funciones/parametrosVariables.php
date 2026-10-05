@@ -3,7 +3,7 @@
     $titulo = "Ejercicio - Mayor PHP";
     $rutaCss = "../css/styles.css";
 
-    include("plantilla/encabezado.php");
+    include("../plantilla/encabezado.php");
 
     function mayor(): int {
         $numeros = func_get_args();
@@ -49,6 +49,6 @@
 
 <?php
 
-    include("plantilla/pie.php");
+    include("../plantilla/pie.php");
 
 ?>
