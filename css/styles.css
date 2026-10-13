@@ -316,3 +316,15 @@ li {
         font-size: 14px;
     }
 }
+
+/* PREFERENCIAS DE USUARIO */
+
+.fondo-preferido {
+    flex: 1;
+    background-color: var(--color-favorito);
+}
+
+.fondo-blanco {
+    flex: 1;
+    background-color: white;
+}

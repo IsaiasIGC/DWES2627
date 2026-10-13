@@ -1,4 +1,4 @@
-# Ejercicios - Cookies
+# Ejercicios - Cookies y Sesiones
 
 Ejercicios realizados durante el apartado de **Cookies y Sesiones** de la asignatura Desarrollo Web en Entorno Servidor (DWES).
 
@@ -17,3 +17,29 @@ En la siguiente ejecución debe de aparecer vuestro nombre en el navegador.
 ### Resultado
 
 ![Cookie de usuario](img/ejcookies.png)
+
+---
+
+## Ejercicio - Preferencias
+
+### Enunciado
+
+**preferencias.php, guarda_prefs.php, index.php y borrar_prefs.php**
+
+Crea un formulario en `preferencias.php` que le pida al usuario su nombre y su color favorito (a elegir de una lista desplegable o con el control `input type="color"` de HTML5).
+
+El formulario deberá enviarse a `guarda_prefs.php`. Esta página redirigirá (con `header()`) a la página `index.php` una vez almacenadas las cookies.
+
+`index.php`, si hay cookies guardadas del usuario, mostrará una página con el color de fondo preferido y un mensaje personalizado de bienvenida (por ejemplo, «Bienvenido, Pepe»). Si no hay cookies guardadas, mostrará una página con fondo blanco y el mensaje «Página de inicio».
+
+En cualquiera de los dos casos, habrá un enlace para ir al formulario `preferencias.php`.
+
+Añade una página `borrar_prefs.php` que elimine las preferencias (cookies) del usuario actual y redirija a `index.php`. Añade un enlace «Borrar preferencias» en `index.php` que se muestre únicamente cuando el usuario tenga preferencias guardadas.
+
+### Resultado
+
+![Formulario de preferencias](img/preferencias.png)
+
+![Página con preferencias guardadas](img/index.png)
+
+![Página de inicio sin preferencias](img/borrar_prefs.png)
