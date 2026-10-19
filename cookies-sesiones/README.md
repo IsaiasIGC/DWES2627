@@ -46,7 +46,7 @@ Añade una página `borrar_prefs.php` que elimine las preferencias (cookies) del
 
 ---
 
-## Ejercicio 4: Calificaciones
+## Ejercicio : Calificaciones
 
 ### Enunciado
 
@@ -74,3 +74,29 @@ La aplicación debe permitir:
 **3. Borrar todos los datos**
 
 ![Lista de alumnos vacía](img/calificaciones3.png)
+
+---
+
+## Ejercicio - Login y Sesiones
+
+### Enunciado
+
+Crear un pequeño sistema de login y uso de sesiones en PHP.
+
+El fichero `usuarios.txt` almacena varios usuarios y contraseñas separados por dos puntos (`:`), uno por fila.
+
+El archivo `cabecera.inc` comprueba si existe el atributo `loginusu` en la sesión. Si no existe, redirige a `login.php`. Si existe, muestra un menú con enlaces a `pag1.php` y `pag2.php`.
+
+Las páginas `index.php`, `pag1.php` y `pag2.php` incluyen `cabecera.inc` mediante `require` y muestran mensajes de bienvenida diferentes.
+
+Por último, `login.php` contiene el formulario de inicio de sesión y comprueba las credenciales introducidas con los datos de `usuarios.txt`. Si coinciden, guarda el nombre del usuario en la sesión y redirige a `index.php`. Si no coinciden, muestra un mensaje de error en rojo.
+
+### Resultado
+
+**1. Inicio de sesión con credenciales incorrectas**
+
+![Formulario de login con mensaje de error](img/login-error.png)
+
+**2. Página principal con sesión iniciada**
+
+![Página principal con el usuario conectado](img/login-exito.png)

@@ -1,0 +1,58 @@
+/* Estilos generales de la página */
+body {
+    background-color: #071a13;
+    color: #e5f5ec;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos de la tarjeta del login */
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #0d241b;
+    border: 1px solid #28784d;
+    border-radius: 12px;
+    color: #e5f5ec;
+    box-shadow: 0 0 15px #123c2c;
+}
+
+/* Color del icono principal y los iconos del formulario */
+.login-card h1,
+.login-card i {
+    color: #4ade80;
+}
+
+/* Color de los textos de la tarjeta */
+.login-card p {
+    color: #9bb8a6;
+}
+
+/* Estilos de los campos del formulario */
+.login-card .form-control {
+    background-color: #091a12;
+    border-color: #315442;
+    color: white;
+}
+
+/* Estilos de los campos cuando están seleccionados */
+.login-card .form-control:focus {
+    border-color: #4ade80;
+    box-shadow: 0 0 5px #4ade80;
+}
+
+/* Estilos del botón de acceso */
+.login-card .btn-success {
+    background-color: #22c55e;
+    border-color: #22c55e;
+    color: #071a13;
+}
+
+/* Color del botón al pasar el ratón por encima */
+.login-card .btn-success:hover {
+    background-color: #4ade80;
+}
+
+/* Color del título del formulario */
+h2 {
+    color: white;
+}

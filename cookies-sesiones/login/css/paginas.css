@@ -1,0 +1,45 @@
+/* Estilos generales */
+body {
+    background-color: #071a13;
+    color: #e5f5ec;
+    font-family: Arial, sans-serif;
+}
+
+/* Menú de navegación */
+nav {
+    padding: 15px;
+    background-color: #0d241b;
+    border-bottom: 1px solid #28784d;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #4ade80;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Contenido de las páginas */
+.pagina-card {
+    background-color: #0d241b;
+    border: 1px solid #28784d;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #123c2c;
+}
+
+.pagina-card h1 {
+    margin-bottom: 20px;
+    color: #4ade80;
+}
+
+.pagina-card p {
+    color: #b7d2c1;
+}
+
+.pagina-card i {
+    color: #4ade80;
+}
