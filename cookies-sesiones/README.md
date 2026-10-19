@@ -43,3 +43,34 @@ Añade una página `borrar_prefs.php` que elimine las preferencias (cookies) del
 ![Página con preferencias guardadas](img/index.png)
 
 ![Página de inicio sin preferencias](img/borrar_prefs.png)
+
+---
+
+## Ejercicio 4: Calificaciones
+
+### Enunciado
+
+Crear una aplicación PHP para gestionar las calificaciones de los alumnos durante los tres trimestres del curso.
+
+La aplicación debe permitir:
+
+- Mostrar una lista de alumnos con sus notas del primer, segundo y tercer trimestre.
+- Calcular y mostrar la media de las tres notas de cada alumno.
+- Añadir nuevos alumnos mediante un formulario, introduciendo su nombre y las notas de los tres trimestres.
+- Validar que las notas estén comprendidas entre 0 y 10.
+- Guardar la lista de alumnos en una sesión para conservar los datos.
+- Borrar todos los alumnos mediante un botón.
+
+### Resultado
+
+**1. Listado inicial de alumnos**
+
+![Listado inicial de alumnos](img/calificaciones1.png)
+
+**2. Añadir un alumno**
+
+![Alumno añadido a la lista](img/calificaciones2.png)
+
+**3. Borrar todos los datos**
+
+![Lista de alumnos vacía](img/calificaciones3.png)
