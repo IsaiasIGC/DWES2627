@@ -8,8 +8,6 @@ Ejercicios realizados durante el apartado de **Cookies y Sesiones** de la asigna
 
 ### Enunciado
 
-**ejcookies.php**
-
 Realizar una aplicación que compruebe si existe la cookie `user` y tiene datos, vuestro nombre. En caso de estar vacía, que la cree con una caducidad de 1000.
 
 En la siguiente ejecución debe de aparecer vuestro nombre en el navegador.
@@ -23,8 +21,6 @@ En la siguiente ejecución debe de aparecer vuestro nombre en el navegador.
 ## Ejercicio - Preferencias
 
 ### Enunciado
-
-**preferencias.php, guarda_prefs.php, index.php y borrar_prefs.php**
 
 Crea un formulario en `preferencias.php` que le pida al usuario su nombre y su color favorito (a elegir de una lista desplegable o con el control `input type="color"` de HTML5).
 
@@ -100,3 +96,25 @@ Por último, `login.php` contiene el formulario de inicio de sesión y comprueba
 **2. Página principal con sesión iniciada**
 
 ![Página principal con el usuario conectado](img/login-exito.png)
+
+---
+
+## Ejercicio - Carrito de la compra
+
+### Enunciado
+
+Crear una aplicación PHP que simule el funcionamiento de un carrito de la compra de una tienda deportiva.
+
+La aplicación debe permitir:
+
+- Mostrar una lista de cuatro productos deportivos con su nombre y precio.
+- Añadir productos al carrito mediante enlaces.
+- Guardar los productos seleccionados en una sesión para conservar el carrito.
+- Mostrar los productos seleccionados en el carrito.
+- Calcular y mostrar el precio total de los productos añadidos.
+
+La presentación de la página se realizará mediante HTML, Bootstrap y una hoja de estilos CSS propia.
+
+### Resultado
+
+![Tienda deportiva con los productos disponibles y el carrito de la compra](img/carro.png)

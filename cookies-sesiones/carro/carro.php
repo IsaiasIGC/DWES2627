@@ -8,6 +8,7 @@
         array("id" => 4, "nombre" => "Pelota de baloncesto Molten", "precio"=> 20)
     );
 
+    // Si no existe el carrito lo inicializamos
     if (!isset($_SESSION['carrito'])) {
         $_SESSION['carrito'] = array();
     }
@@ -26,16 +27,11 @@
         }
     }
 
+    // Calculamos el total de la compra
     $total = 0;
-
     foreach ($_SESSION['carrito'] as $articulo) {
         $total += $articulo['precio'];
     }
 
-    echo $total;
-
-    foreach ($_SESSION['carrito'] as $articulo) {
-        echo $articulo['nombre'] . " - " . $articulo['precio'] . " euros";
-        echo "<br>";
-    }
+    include('carro.view.php');
 ?>

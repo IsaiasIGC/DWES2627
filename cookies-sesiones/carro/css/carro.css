@@ -1,0 +1,92 @@
+/* Estilos generales */
+html, body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f6f8;
+    color: #212529;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabecera */
+header {
+    background-color: #17365d;
+    color: #ffffff;
+    border-bottom: 3px solid #0d6efd;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+header p {
+    color: #e0e7ef;
+    margin-bottom: 0;
+}
+
+/* Contenido principal */
+main {
+    flex: 1;
+    background-color: #f4f6f8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Títulos de las secciones */
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Tarjetas de productos disponibles y carrito */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Efecto al pasar el ratón por las tarjetas */
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Nombre de los productos */
+.card h3 {
+    color: #343a40;
+    font-size: 1.1rem;
+    min-height: 2.6rem;
+}
+
+/* Botones */
+.btn {
+    border-radius: 6px;
+}
+
+.card .btn {
+    margin-top: auto;
+}
+
+/* Total de la compra */
+h3 {
+    margin-top: 15px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #17365d;
+    margin-top: 40px;
+    color: #ffffff;
+    text-align: center;
+    border-top: 3px solid #0d6efd;
+}
+
+footer p {
+    margin-bottom: 0;
+}
