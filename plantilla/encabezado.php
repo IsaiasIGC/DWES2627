@@ -24,7 +24,6 @@
 
                 <div>
                     <h1>Ejercicios PHP</h1>
-                    <p>Uso de Funciones y Ficheros</p>
                 </div>
             </div>
         </div>
