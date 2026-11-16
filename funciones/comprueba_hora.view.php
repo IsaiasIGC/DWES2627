@@ -58,6 +58,6 @@
 
 <?php
 
-    include("../plantilla/encabezado.php");
+    include("../plantilla/pie.php");
 
 ?>
