@@ -1,0 +1,3 @@
+ana:1111:lector
+luis:2222:lector
+admin:admin123:bibliotecario

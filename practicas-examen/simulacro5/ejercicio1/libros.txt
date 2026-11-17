@@ -1,0 +1,4 @@
+L01|El principito|Antoine de Saint-Exupéry|3
+L02|1984|George Orwell|2
+L03|Dune|Frank Herbert|4
+L04|La sombra del viento|Carlos Ruiz Zafón|1
