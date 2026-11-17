@@ -15,6 +15,12 @@ class Alumno extends Persona {
     public function getCurso() {
         return $this->curso;
     }
+
+    public function __toString() {
+        $texto = parent::__toString();
+        $texto .= 'Curso: ' . $this->curso . '<br>';
+        return $texto;
+    }
 }
 
 ?>
