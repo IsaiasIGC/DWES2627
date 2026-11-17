@@ -1,0 +1,5 @@
+ana:1234:Ana García:alumno
+luis:abcd:Luis Pérez:profesor
+marta:5678:Marta López:alumno
+carlos:pass:Carlos Ruiz:alumno
+elena:admin:Elena Torres:administrador
